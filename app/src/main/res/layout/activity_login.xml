@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.project.LoginActivity">
+
+    <EditText
+        android:id="@+id/idEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID 입력" />
+
+    <EditText
+        android:id="@+id/pwEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password 입력"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="회원가입" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="로그인" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/autoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자동로그인" />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID / Password 찾기" />
+
+</LinearLayout>

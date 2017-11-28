@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.project.FindActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID 찾기" />
+
+    <EditText
+        android:id="@+id/phoneEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Phone num"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/mailEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnFindId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID 찾기" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password 찾기" />
+
+    <EditText
+        android:id="@+id/idEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/mailEditPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phoneEditPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Phone num"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnFindPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password 찾기" />
+</LinearLayout>
